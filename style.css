@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background:#23252C;
+    font-family: 'Inter', sans-serif;
+    color:#FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width:20%;
+    margin: 0.8em auto;
+    background:#1A1B21;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1.6em;
+}
+.hero--img{
+    width:100%;
+    height:50%;
+    object-fit: cover;
+    object-position: top;
+    
+}
+.hero--name{
+    font-size: 1.4em;
+    margin:1.3rem 0 0;
+}
+.hero--role{
+    color: #F3BF99;
+    margin-top:0.7rem;
+    font-size: 0.75rem;
+}
+.hero--location{
+    margin-top:0.7rem;
+    font-size: 0.62rem;
+}
+.hero--contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top:0.6rem;
+    align-items: center;
+    margin-top:0.7rem;
+}
+.hero--contact a{
+    padding:0.4rem 0;
+    width:36%;
+    text-align: center;
+}
+.email{
+    background: #FFFFFF;
+    color: #374151;
+    font-size: 0.8em
+}
+a>i{
+    margin-right: 0.4rem;
+}
+.linkedin{
+    background: #5093E2;
+    color: #FFFFFF;
+}
+.about{
+     padding:1.6em;
+}
+.about>h1,.interests>h1{
+    font-size: 1em;
+}
+.about>.interests>h1{
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    line-height: 0.9rem;
+    font-weight: normal;
+}
+.interests{
+    padding:0 1.6rem 1.5rem;;
+}
+.interests>h1{
+    margin: 0;
+}
+.footer-container{
+    padding:1rem;
+    background: #161619;
+    
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+.footer-container a{
+    color: #918E9B;
+}
